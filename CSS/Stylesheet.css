@@ -1,0 +1,21 @@
+:root{
+    --customGray:#b7b7b7;       /* Standar Text */
+    --deepGray:#434343;     /* Background */
+    --gold: #bf9000;        /* Titles or H1 */
+    --polishedGold:#bc8e3c;     /* Section Highlights No text */
+    --silver:#a19c91;       /* H2 */
+    --bronze:#ab9d81;       /* H3 */
+    --warmYellow:#e3ab47;       /* Emphasized text */
+}
+@font-face {
+    font-family: montserrat;
+    src: url(Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family: comfortaa;
+    src: url(Comfortaa-Regular.ttf);
+}
+@font-face {
+    font-family: Raleway;
+    src: url(Raleway-Regular.ttf);
+}
