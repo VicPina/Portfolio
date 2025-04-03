@@ -6,6 +6,10 @@
     --silver:#a19c91;       /* H2 */
     --bronze:#ab9d81;       /* H3 */
     --warmYellow:#e3ab47;       /* Emphasized text */
+
+    --raleway:'raleway';
+    --comfortaa:'comfortaa';
+
 }
 @font-face {
     font-family: montserrat;
@@ -13,9 +17,36 @@
 }
 @font-face {
     font-family: comfortaa;
-    src: url(Comfortaa-Regular.ttf);
+    src: url(/Fonts/Comfortaa/static/Comfortaa-Regular.ttf);
 }
 @font-face {
-    font-family: Raleway;
+    font-family: raleway;
     src: url(Raleway-Regular.ttf);
+}
+body{
+    background-color: var(--deepGray);
+    font-family: var(--comfortaa);
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: var(--polishedGold);
+    height: 256px;
+    margin: 0;
+    padding: 0;
+}
+.header a img{
+    height: 100%;
+    width: 100%;
+
+}
+.menu ul{
+    list-style-type: none;
+    font-family: var(--comfortaa);
+}
+.footer{
+    background-color: var(--bronze);
+}
+.footer.navegation{
+    list-style: none;
 }
