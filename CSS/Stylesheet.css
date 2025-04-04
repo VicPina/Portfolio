@@ -39,13 +39,35 @@ body{
     height: 100%;
     width: 100%;
 }
-.menu ul{
+.navbar ul{
     list-style-type: none;
-    font-family: var(--comfortaa);
+    background-color: var(--polishedGold);
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.navbar a{
+    color: var(--deepGray);
+    text-decoration: none;
+    font-family: comfortaa;
+    padding: 15px;
+    display: inline-block;
+    text-align: center;
+
+}
+.navbar a:hover{
+    background-color: var(--gold);
+}
+.navbar li{
+    display: inline;
 }
 .footer{
     background-color: var(--bronze);
 }
 .footer.navegation{
     list-style: none;
+}
+/*Responsive navigation*/
+@media screen and (max-width: 600px) {
+    
 }
