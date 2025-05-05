@@ -13,21 +13,24 @@
 }
 @font-face {
     font-family: montserrat;
-    src: url(Montserrat-Regular.ttf);
+    font-style: normal;
+    font-weight: 400;
+    src: url('../Fonts/Montserrat/static/Montserrat-Regular.ttf') format("truetype");
 }
 @font-face {
     font-family: comfortaa;
-    src: url(/Fonts/Comfortaa/static/Comfortaa-Regular.ttf);
-}
-@font-face {
-    font-family: raleway;
-    src: url(Raleway-Regular.ttf);
+    font-style: normal;
+    font-weight: 400;
+    src: url('../Fonts/Comfortaa/static/Comfortaa-Regular.ttf') format("truetype");
 }
 body{
     background-color: var(--deepGray);
     font-family: var(--comfortaa);
     margin: 0;
     padding: 0;
+}
+h1, h2, h3{
+    font-family: montserrat, normal;
 }
 .header{
     background-color: var(--polishedGold);
@@ -49,7 +52,7 @@ body{
 .navbar a{
     color: var(--deepGray);
     text-decoration: none;
-    font-family: comfortaa;
+    font-family: comfortaa, normal;
     padding: 15px;
     display: inline-block;
     text-align: center;
