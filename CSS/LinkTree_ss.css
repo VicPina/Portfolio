@@ -1,0 +1,15 @@
+:root{
+    --lightGray00:#b7b7b7;       /* Standar Text */
+    --darkGray00:#434343;     /* Background */
+    --gold00: #bf9000;        /* Titles or H1 */
+    --saturatedGold00:#bc8e3c;     /* Section Highlights No text */
+    --silver00:#a19c91;       /* H2 */
+    --bronze00:#ab9d81;       /* H3 */
+    --saturatedYellow00:#e3ab47;       /* Emphasized text */
+}
+body{
+    background-color: var(--deepGray);
+    font-family: var(--comfortaa);
+    margin: 0;
+    padding: 0;
+}
