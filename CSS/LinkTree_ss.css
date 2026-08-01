@@ -7,9 +7,11 @@
     --bronze00:#ab9d81;       /* H3 */
     --saturatedYellow00:#e3ab47;       /* Emphasized text */
 }
-body{
+body, header, main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
     background-color: var(--deepGray);
     font-family: var(--comfortaa);
-    margin: 0;
-    padding: 0;
 }
