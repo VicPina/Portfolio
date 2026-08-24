@@ -27,8 +27,6 @@ body, header, main{
     flex-direction: column;
     align-items: center;
 
-    font-family: var(--montserrat);
-    
     .Banner{
         display: flexbox;
         button{
@@ -42,7 +40,7 @@ body, header, main{
             font-family: var(--comfortaa);
             color: var(--saturatedYellow00);
             font-size: larger;
-            border: 3px solid var(--bronze00);
+            border: 3px solid var(--silver00);
             border-radius: 10%;
         }
         img{
@@ -78,6 +76,21 @@ body{
             object-fit: cover;
             transform: scale(1.2);
             object-position: 50% 10%;
+        }
+    }
+}
+header{
+
+    font-family: var(--montserrat);
+    color: var(--lightGray00);
+    .SocialMedia{
+        margin-top: -20px;
+
+        display: flex;
+        justify-content: space-between;
+
+        a{
+            margin: 3px;
         }
     }
 }
