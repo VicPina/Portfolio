@@ -103,3 +103,7 @@ header{
         }
     }
 }
+footer{
+    font-family: var(--comfortaa);
+    counter-reset: var(--darkGray00);
+}
